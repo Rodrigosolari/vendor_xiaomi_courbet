@@ -12,6 +12,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/courbet/proprietary/system_ext/bin/qseecomd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/qseecomd \
     vendor/xiaomi/courbet/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
     vendor/xiaomi/courbet/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
+    vendor/xiaomi/courbet/proprietary/system_ext/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perf/commonresourceconfigs.xml \
+    vendor/xiaomi/courbet/proprietary/system_ext/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perf/perfboostsconfig.xml \
+    vendor/xiaomi/courbet/proprietary/system_ext/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perf/perfconfigstore.xml \
+    vendor/xiaomi/courbet/proprietary/system_ext/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perf/targetconfig.xml \
+    vendor/xiaomi/courbet/proprietary/system_ext/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perf/targetresourceconfigs.xml \
+    vendor/xiaomi/courbet/proprietary/system_ext/etc/perf/thermalboost.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perf/thermalboost.conf \
     vendor/xiaomi/courbet/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/xiaomi/courbet/proprietary/system_ext/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/xiaomi/courbet/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \

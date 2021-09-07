@@ -8,10 +8,17 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/courbet/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
     vendor/xiaomi/courbet/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
+    vendor/xiaomi/courbet/proprietary/system_ext/bin/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/android.hardware.drm@1.3-service.widevine \
+    vendor/xiaomi/courbet/proprietary/system_ext/bin/qseecomd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/qseecomd \
     vendor/xiaomi/courbet/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
     vendor/xiaomi/courbet/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/xiaomi/courbet/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
+    vendor/xiaomi/courbet/proprietary/system_ext/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/xiaomi/courbet/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
+    vendor/xiaomi/courbet/proprietary/system_ext/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/qseecomd.rc \
+    vendor/xiaomi/courbet/proprietary/system_ext/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/gpfspath_oem_config.xml \
+    vendor/xiaomi/courbet/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
+    vendor/xiaomi/courbet/proprietary/system_ext/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml \
     vendor/xiaomi/courbet/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/xiaomi/courbet/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
     vendor/xiaomi/courbet/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
@@ -96,6 +103,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/courbet/proprietary/system_ext/lib64/com.quicinc.cne.constants@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@1.0.so \
     vendor/xiaomi/courbet/proprietary/system_ext/lib64/com.quicinc.cne.constants@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@2.0.so \
     vendor/xiaomi/courbet/proprietary/system_ext/lib64/com.quicinc.cne.constants@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@2.1.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/libGPreqcancel.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libGPreqcancel.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libGPreqcancel_svc.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libQSEEComAPI.so \
     vendor/xiaomi/courbet/proprietary/system_ext/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/fm_helium.so \
     vendor/xiaomi/courbet/proprietary/system_ext/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvideocodec.so \
     vendor/xiaomi/courbet/proprietary/system_ext/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvt.so \
@@ -132,6 +142,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/courbet/proprietary/system_ext/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.1.so \
     vendor/xiaomi/courbet/proprietary/system_ext/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.2.so \
     vendor/xiaomi/courbet/proprietary/system_ext/lib64/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.3.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/vendor.display.color@1.4.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.4.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.5.so \
     vendor/xiaomi/courbet/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
     vendor/xiaomi/courbet/proprietary/system_ext/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so \
     vendor/xiaomi/courbet/proprietary/system_ext/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
@@ -148,7 +160,25 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/courbet/proprietary/system_ext/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.callinfo@1.0.so \
     vendor/xiaomi/courbet/proprietary/system_ext/lib64/vendor.qti.ims.factory@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.factory@1.0.so \
     vendor/xiaomi/courbet/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@1.1.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@2.0.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@2.1.so \
     vendor/xiaomi/courbet/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/libcpion.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcpion.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/libdrmfs.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdrmfs.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/libdrmtime.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdrmtime.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/libhdcpsrm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libhdcpsrm.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/libminkdescriptor.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libminkdescriptor.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/libminksocket.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libminksocket.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboemcrypto.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/libops.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libops.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/libqisl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqisl.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/librpmb.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/librpmb.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/libssd.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libssd.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/libtrustedapploader.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtrustedapploader.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/libwvdrmengine.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwvdrmengine.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/libwvhidl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwvhidl.so \
+    vendor/xiaomi/courbet/proprietary/system_ext/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libQSEEComAPI.so \
     vendor/xiaomi/courbet/proprietary/product/vendor_overlay/30/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/soundfx/libvolumelistener.so \
     vendor/xiaomi/courbet/proprietary/product/vendor_overlay/30/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/soundfx/libvolumelistener.so
 

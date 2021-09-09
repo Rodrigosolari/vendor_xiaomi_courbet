@@ -9,6 +9,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/courbet/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
     vendor/xiaomi/courbet/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/courbet/proprietary/system_ext/bin/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/android.hardware.drm@1.3-service.widevine \
+    vendor/xiaomi/courbet/proprietary/system_ext/bin/android.hardware.drm@1.3-service.clearkey:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/android.hardware.drm@1.3-service.clearkey \
     vendor/xiaomi/courbet/proprietary/system_ext/bin/qseecomd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/qseecomd \
     vendor/xiaomi/courbet/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
     vendor/xiaomi/courbet/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \

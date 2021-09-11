@@ -7,6 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/courbet/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
+    vendor/xiaomi/courbet/proprietary/bin/chargeonlymode:$(TARGET_COPY_OUT_SYSTEM)/bin/chargeonlymode \
     vendor/xiaomi/courbet/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/courbet/proprietary/system_ext/bin/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/android.hardware.drm@1.3-service.widevine \
     vendor/xiaomi/courbet/proprietary/system_ext/bin/android.hardware.drm@1.3-service.clearkey:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/android.hardware.drm@1.3-service.clearkey \

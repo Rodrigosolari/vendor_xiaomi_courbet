@@ -8,6 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/courbet/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
     vendor/xiaomi/courbet/proprietary/bin/chargeonlymode:$(TARGET_COPY_OUT_SYSTEM)/bin/chargeonlymode \
+    vendor/xiaomi/courbet/proprietary/bin/batterysecret:$(TARGET_COPY_OUT_SYSTEM)/bin/batterysecret \
     vendor/xiaomi/courbet/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/courbet/proprietary/system_ext/bin/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/android.hardware.drm@1.3-service.widevine \
     vendor/xiaomi/courbet/proprietary/system_ext/bin/android.hardware.drm@1.3-service.clearkey:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/android.hardware.drm@1.3-service.clearkey \
@@ -21,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/courbet/proprietary/system_ext/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perf/targetresourceconfigs.xml \
     vendor/xiaomi/courbet/proprietary/system_ext/etc/perf/thermalboost.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perf/thermalboost.conf \
     vendor/xiaomi/courbet/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
+    vendor/xiaomi/courbet/proprietary/system_ext/etc/init/init_batterysecret.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init_batterysecret.rc \
     vendor/xiaomi/courbet/proprietary/system_ext/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/xiaomi/courbet/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
     vendor/xiaomi/courbet/proprietary/system_ext/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/qseecomd.rc \
